@@ -8,3 +8,7 @@ commands:
     description: Opens the event trace UI
     usage: /<command>
     permission: normaldebugger.debug
+  toggleevent:
+    description: Toggles a given event to be listened to
+    usage: /<command>
+    permission: normaldebugger.toggle
