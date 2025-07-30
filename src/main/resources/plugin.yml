@@ -1,0 +1,10 @@
+name: NormalDebugger
+version: '1.0-SNAPSHOT'
+main: org.normal.normalDebugger.NormalDebugger
+api-version: '1.21'
+load: STARTUP
+commands:
+  debuggui:
+    description: Opens the event trace UI
+    usage: /<command>
+    permission: normaldebugger.debug
